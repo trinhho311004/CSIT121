@@ -1,0 +1,264 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+main{
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+}
+.navbar-left,
+.navbar-right {
+   display: inline-block;
+   
+}
+.navbar {
+   position: relative;
+   height: 56px;
+   font-weight: bold;
+   justify-content: space-between;
+   align-items: center;
+   display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.navbar-right {
+   position: absolute;
+   top: 15px;
+   right: 0;
+}
+
+.navbar {
+   background: #55B3D9;
+}
+nav a{
+   padding:0px 20px;
+   font-size: 20px;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+   text-decoration: none;
+}
+.navbar-brand{
+   font-size: 32px;
+   font-family: Comic Sans, Comic Sans MS, cursive;
+}
+nav a:link { color: black; }
+nav a:visited { color: black; }
+nav a:hover { color: white;}
+.mobile{
+   display:none;}
+.button {
+   border-radius: 50px;
+   padding: 10px; 
+   color: black;
+   background-color: #0280bd;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   margin-right: 15px;
+}
+.button:link { color : black; }
+.button:visited { color : black; }
+.button:hover { color : #55B3D9; background-color: white; }
+footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #55B3D9;
+      color: black;
+      justify-content: space-between;
+      position: relative;
+      display: flex;
+}
+
+footer p{
+   margin-right:30px;
+   margin-left: 30px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.navbar2{
+   background: #87c9e4;
+   position: relative;
+   height: 50px;
+   font-weight: bold;
+   display: flex;
+   padding-left: 38%;
+
+}
+
+.genre{
+   text-decoration: none;
+   padding-top: 13px;
+   left: 30px;
+}
+
+.left{
+   float: left;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+   margin: 0 auto;
+   margin-left: 30px;
+}
+.background{
+   text-align: justify;
+}
+.sec1 img{
+   width: 500px;
+   height: 670px;
+   margin-right: 50px;
+   margin-bottom: 80px;
+}
+.sec1 h1,h3,h4, p{
+   margin-left: 60px;
+   margin-right: 40px;
+}
+.sec1 h1{
+   font-size: 50px;
+   margin-top: 50px;
+   margin-bottom: 40px;
+   text-align: center;
+}
+.sec1 h3{
+   font-size: 35px;
+   text-align: center;
+}
+.sec1 h4{
+   font-size: 30px;
+   }
+.sec1 p{
+   margin-top:30px;
+   font-size: 30px;
+   margin-bottom: 40px;
+}
+
+.sec2{
+   float: none;
+   clear: both ;
+}
+
+.sec2 p{
+   margin-bottom: 30px;
+}
+.comic{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+.sec2 img{
+  width: 250px;
+  height: 400px;
+  margin-right: 60px;
+}
+.comic p{ 
+   margin-right: 120px;
+   font-size: 23px;
+   font-weight: bold;
+   margin-top: 10px;
+
+}
+
+.comic a{
+   text-decoration: none;
+}
+.sec2 h1{
+   font-size: 50px;
+   margin-top:70px;
+   margin-bottom: 20px;
+}
+
+.sec3 h1{
+   font-size: 50px;
+   margin-top: 60px;
+   margin-bottom: 30px;
+}
+
+.sec3 table{
+   border-collapse: collapse;
+   margin:0 auto;
+   margin-bottom: 40px;
+   font-family: Arial, sans-serif;
+   font-size: 25px;
+   text-align: center;
+   width:85%;
+}
+
+.sec3 th {
+         background-color: #0280bd;
+         color: #fff;
+         padding: 10px;
+         border: 1px solid #ccc;
+      }
+      
+.sec3 td {
+         border: 1px solid #ccc;
+         padding: 10px;
+      }
+.sec3 tr:nth-child(even) {
+         background-color: #d2edfa;
+      }
+      
+.sec3 p{
+   text-align: justify;
+   font-size: 30px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+
+.comic p{
+   color: #0260bd;}
+
+.comic p:hover { color : #55B3D9}
+
+.navbar-left{
+   order: 2;}
+.navbar-right{
+   order: 1;}
+@media (max-width: 768px) {
+.navbar{
+   grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;}
+.navbar-left{
+   grid-row: 1;
+    text-align: center;
+}
+.navbar-right{
+   grid-row: 2;
+   display:none ;
+   
+}
+.mobile{
+   background: #55B3D9;
+   position: relative;
+   height: 56px;
+   font-weight: bold;
+   display: flex;
+   padding-left:7%;
+   display:flex;
+   padding-top:16px;
+   text-decoration: none;
+   border-top:1px solid;
+   border-bottom:1px solid;
+}
+.nav-link1{
+   text-decoration: none;
+   padding-top: 13px;
+   left: 30px;
+}
+.navbar2{
+   padding-left:20%;
+}
+.sec3 table{
+   font-size: 17px;
+}
+}
